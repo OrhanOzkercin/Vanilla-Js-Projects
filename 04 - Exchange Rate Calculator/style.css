@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #5fbaa7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+p {
+  text-align: center;
+}
+
+.btn {
+  color: #fff;
+  background: var(--primary-color);
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  font-size: 12px;
+  padding: 5px 12px;
+}
+
+.money-img {
+  width: 150px;
+}
+
+#currency {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#currency select {
+  padding: 10px 20px 10px 10px;
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  font-size: 16px;
+  background: transparent;
+}
+
+#currency input {
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  text-align: right;
+}
+
+.swap-rate-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rate {
+  color: var(--primary-color);
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+select:focus,
+input:focus,
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  #currency input {
+    width: 200px;
+  }
+}

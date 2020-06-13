@@ -60,7 +60,7 @@ Main goal is:
 
 ![Exchange Rate](https://i.hizliresim.com/bQmHgc.png)
 
-## 06 - Weather API
+## 07 - Weather API
 
 Another API project. I did these projects to practice promise approach and async programming with Javascipt. I also used fetch API with this one.
 
@@ -69,3 +69,14 @@ Main goal is:
 - Practice promise approach.
 
 ![Exchange Rate](https://i.hizliresim.com/Kcesal.png)
+
+## 08 - HANGMAN Game
+
+This is a fun project to make. It's good for practice to solve small problems. Also there is a bit of svg in this project. I used some `keyboard events` and made fun game.
+
+Main goal is:
+
+- Make fun game.
+- Try to interact with user
+
+![Exchange Rate](https://i.hizliresim.com/Hbwyrn.png)

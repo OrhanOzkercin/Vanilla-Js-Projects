@@ -34,7 +34,10 @@ Main goal is:
 
 In this project I took exchange rates from API (exchangeratesapi.io). It is a simple rate calculator.
 
-Main goal is: - Learning how to use fetch API. - Manipulate DOM with data which came from another server.
+Main goal is: 
+
+- Learning how to use fetch API.
+- Manipulate DOM with data which came from another server.
 
 ![Exchange Rate](https://i.hizliresim.com/Wgw503.png)
 
